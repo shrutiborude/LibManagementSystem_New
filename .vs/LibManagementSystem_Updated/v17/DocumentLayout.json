@@ -3,8 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|c:\\users\\shrutiborude\\source\\repos\\saved lib management\\new folder\\libmanagementsystem_updated\\classesforcrudoperations\\deleteperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\libmanagementsystem_updated\\classesforcrudoperations\\savebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|solutionrelative:libmanagementsystem_updated\\classesforcrudoperations\\savebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\libmanagementsystem_updated\\classesforcrudoperations\\updatebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|solutionrelative:libmanagementsystem_updated\\classesforcrudoperations\\updatebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\libmanagementsystem_updated\\classesforcrudoperations\\saveperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|solutionrelative:libmanagementsystem_updated\\classesforcrudoperations\\saveperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\libmanagementsystem_updated\\classesforcrudoperations\\updateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|solutionrelative:libmanagementsystem_updated\\classesforcrudoperations\\updateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|c:\\users\\shrutiborude\\source\\repos\\saved lib management\\new folder\\libmanagementsystem_updated\\models\\domainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|solutionrelative:libmanagementsystem_updated\\models\\domainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|c:\\users\\shrutiborude\\source\\repos\\saved lib management\\new folder\\libmanagementsystem_updated\\classesforcrudoperations\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|solutionrelative:libmanagementsystem_updated\\classesforcrudoperations\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|c:\\users\\shrutiborude\\source\\repos\\saved lib management\\new folder\\libmanagementsystem_updated\\forms\\booksform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|solutionrelative:libmanagementsystem_updated\\forms\\booksform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\libmanagementsystem_updated\\forms\\booksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|solutionrelative:libmanagementsystem_updated\\forms\\booksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\libmanagementsystem_updated\\forms\\booksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|solutionrelative:libmanagementsystem_updated\\forms\\booksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\libmanagementsystem_updated\\forms\\studentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|solutionrelative:libmanagementsystem_updated\\forms\\studentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\libmanagementsystem_updated\\forms\\studentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|solutionrelative:libmanagementsystem_updated\\forms\\studentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\libmanagementsystem_updated\\classesforcrudoperations\\deleteperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|solutionrelative:libmanagementsystem_updated\\classesforcrudoperations\\deleteperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\libmanagementsystem_updated\\classesforcrudoperations\\loaddataintogrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{038F51BC-9314-417F-8AE1-1C729D8C7234}|LibManagementSystem_Updated\\LibManagementSystem_Updated.csproj|solutionrelative:libmanagementsystem_updated\\classesforcrudoperations\\loaddataintogrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +70,167 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\ClassesforCRUDOperations\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "LibManagementSystem_Updated\\ClassesforCRUDOperations\\DatabaseService.cs",
+              "ToolTip": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\ClassesforCRUDOperations\\DatabaseService.cs",
+              "RelativeToolTip": "LibManagementSystem_Updated\\ClassesforCRUDOperations\\DatabaseService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAEwDwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T00:03:40.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateBook.cs",
+              "DocumentMoniker": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\ClassesforCRUDOperations\\UpdateBook.cs",
+              "RelativeDocumentMoniker": "LibManagementSystem_Updated\\ClassesforCRUDOperations\\UpdateBook.cs",
+              "ToolTip": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\ClassesforCRUDOperations\\UpdateBook.cs",
+              "RelativeToolTip": "LibManagementSystem_Updated\\ClassesforCRUDOperations\\UpdateBook.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAzwBgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T17:17:49.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SaveBook.cs",
+              "DocumentMoniker": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\ClassesforCRUDOperations\\SaveBook.cs",
+              "RelativeDocumentMoniker": "LibManagementSystem_Updated\\ClassesforCRUDOperations\\SaveBook.cs",
+              "ToolTip": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\ClassesforCRUDOperations\\SaveBook.cs",
+              "RelativeToolTip": "LibManagementSystem_Updated\\ClassesforCRUDOperations\\SaveBook.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wB8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T17:17:22.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DomainClass.cs",
+              "DocumentMoniker": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\Models\\DomainClass.cs",
+              "RelativeDocumentMoniker": "LibManagementSystem_Updated\\Models\\DomainClass.cs",
+              "ToolTip": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\Models\\DomainClass.cs",
+              "RelativeToolTip": "LibManagementSystem_Updated\\Models\\DomainClass.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAA6wEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T17:11:51.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SavePerson.cs",
+              "DocumentMoniker": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\ClassesforCRUDOperations\\SavePerson.cs",
+              "RelativeDocumentMoniker": "LibManagementSystem_Updated\\ClassesforCRUDOperations\\SavePerson.cs",
+              "ToolTip": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\ClassesforCRUDOperations\\SavePerson.cs",
+              "RelativeToolTip": "LibManagementSystem_Updated\\ClassesforCRUDOperations\\SavePerson.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T18:21:36.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdatePerson.cs",
+              "DocumentMoniker": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\ClassesforCRUDOperations\\UpdatePerson.cs",
+              "RelativeDocumentMoniker": "LibManagementSystem_Updated\\ClassesforCRUDOperations\\UpdatePerson.cs",
+              "ToolTip": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\ClassesforCRUDOperations\\UpdatePerson.cs",
+              "RelativeToolTip": "LibManagementSystem_Updated\\ClassesforCRUDOperations\\UpdatePerson.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T18:40:11.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BooksForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\Forms\\BooksForm.Designer.cs",
+              "RelativeDocumentMoniker": "LibManagementSystem_Updated\\Forms\\BooksForm.Designer.cs",
+              "ToolTip": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\Forms\\BooksForm.Designer.cs",
+              "RelativeToolTip": "LibManagementSystem_Updated\\Forms\\BooksForm.Designer.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAvwIUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T00:14:33.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BooksForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\Forms\\BooksForm.cs",
+              "RelativeDocumentMoniker": "LibManagementSystem_Updated\\Forms\\BooksForm.cs",
+              "ToolTip": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\Forms\\BooksForm.cs [Design]",
+              "RelativeToolTip": "LibManagementSystem_Updated\\Forms\\BooksForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T17:59:47.033Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BooksForm.cs",
+              "DocumentMoniker": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\Forms\\BooksForm.cs",
+              "RelativeDocumentMoniker": "LibManagementSystem_Updated\\Forms\\BooksForm.cs",
+              "ToolTip": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\Forms\\BooksForm.cs",
+              "RelativeToolTip": "LibManagementSystem_Updated\\Forms\\BooksForm.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAiwD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T17:59:51.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentsForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\Forms\\StudentsForm.cs",
+              "RelativeDocumentMoniker": "LibManagementSystem_Updated\\Forms\\StudentsForm.cs",
+              "ToolTip": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\Forms\\StudentsForm.cs [Design]",
+              "RelativeToolTip": "LibManagementSystem_Updated\\Forms\\StudentsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T18:38:52.346Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentsForm.cs",
+              "DocumentMoniker": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\Forms\\StudentsForm.cs",
+              "RelativeDocumentMoniker": "LibManagementSystem_Updated\\Forms\\StudentsForm.cs",
+              "ToolTip": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\Forms\\StudentsForm.cs",
+              "RelativeToolTip": "LibManagementSystem_Updated\\Forms\\StudentsForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T18:38:55.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoadDataIntoGrid.cs",
+              "DocumentMoniker": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\ClassesforCRUDOperations\\LoadDataIntoGrid.cs",
+              "RelativeDocumentMoniker": "LibManagementSystem_Updated\\ClassesforCRUDOperations\\LoadDataIntoGrid.cs",
+              "ToolTip": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\ClassesforCRUDOperations\\LoadDataIntoGrid.cs",
+              "RelativeToolTip": "LibManagementSystem_Updated\\ClassesforCRUDOperations\\LoadDataIntoGrid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T17:59:34.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "DeletePerson.cs",
               "DocumentMoniker": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\ClassesforCRUDOperations\\DeletePerson.cs",
               "RelativeDocumentMoniker": "LibManagementSystem_Updated\\ClassesforCRUDOperations\\DeletePerson.cs",
               "ToolTip": "C:\\Users\\ShrutiBorude\\source\\repos\\Saved Lib Management\\New folder\\LibManagementSystem_Updated\\ClassesforCRUDOperations\\DeletePerson.cs",
               "RelativeToolTip": "LibManagementSystem_Updated\\ClassesforCRUDOperations\\DeletePerson.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBMAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA+wBwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T16:43:11.419Z",
               "EditorCaption": ""

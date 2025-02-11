@@ -33,7 +33,7 @@ namespace LibManagementSystem_Updated.Models
 
     public class Student : Person
     {
-        //[Required]
+        [Required(ErrorMessage = "Student ID is required.")]
         public string StudentID { get; set; }
 
         public Student()
@@ -44,7 +44,7 @@ namespace LibManagementSystem_Updated.Models
 
     public class Librarian : Person
     {
-        [Required]
+        [Required(ErrorMessage = "Employee ID is required.")]
         public string EmployeeID { get; set; }
 
         public Librarian()
@@ -59,13 +59,23 @@ namespace LibManagementSystem_Updated.Models
         [Key]
         public int Id { get; set; }
 
-        [Required]
+        
+        [Required(ErrorMessage = "Name is required.")]
         public string Name { get; set; }
 
-        [Required]
+
+        [Required(ErrorMessage = "Author Name is required.")]
         public string Author { get; set; }
 
-        [Required]
-        public int ISBN { get; set; }
+
+
+        //[Required(ErrorMessage = "ISBN number is required.")]
+        [Required(ErrorMessage = "ISBN number is required.")]
+        [StringLength(13, MinimumLength = 13, ErrorMessage = "ISBN must be exactly 13 digits.")]
+        [RegularExpression(@"^\d{13}$", ErrorMessage = "ISBN must be numeric and exactly 13 digits.")]
+        [Index(IsUnique = true)]
+        public string ISBN { get; set; }
+
+
     }
 }

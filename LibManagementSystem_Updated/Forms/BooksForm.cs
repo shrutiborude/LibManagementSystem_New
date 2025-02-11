@@ -49,5 +49,14 @@ namespace LibManagementSystem_Updated
             LoadDataIntoGrid.LoadIntoGrid(dataGridViewBook, _bookService);
         }
 
+        //private void textBoxISBN_TextChanged(object sender, EventArgs e)
+        //{
+        //    if (!System.Text.RegularExpressions.Regex.IsMatch(textBoxISBN.Text, @"^\d{0,13}$"))
+        //    {
+        //        MessageBox.Show("ISBN must be exactly 13 digits and numeric.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        //        textBoxISBN.Text = textBoxISBN.Text.Remove(textBoxISBN.Text.Length - 1);
+        //        textBoxISBN.SelectionStart = textBoxISBN.Text.Length; // Keep cursor position
+        //    }
+        //}
     }
 }

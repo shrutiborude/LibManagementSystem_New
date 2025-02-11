@@ -58,6 +58,7 @@ namespace LibManagementSystem_Updated
         {
             myDbContext.Set<T>().Add(entity);
             myDbContext.SaveChanges();
+            
         }
 
         //This allows you to update an existing record.

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Windows.Forms;
 using LibManagementSystem_Updated.Models;
 
@@ -17,6 +18,19 @@ namespace LibManagementSystem_Updated.Classes
             if (string.IsNullOrWhiteSpace(nameBox.Text) || string.IsNullOrWhiteSpace(contactBox.Text) || string.IsNullOrWhiteSpace(idBox.Text))
             {
                 MessageBox.Show("Please fill all fields.");
+                return;
+            }
+
+            if (contactBox.Text.Length != 10 || !contactBox.Text.All(char.IsDigit))
+            {
+                MessageBox.Show("Contact number must be exactly 10 digits and numeric.");
+                return;
+            }
+
+            var existingPerson = service.GetAll().FirstOrDefault(p => p.Contact == contactBox.Text && p.Id != selectedPerson.Id);
+            if (existingPerson != null)
+            {
+                MessageBox.Show("Contact number must be unique. Please enter a different number.");
                 return;
             }
 

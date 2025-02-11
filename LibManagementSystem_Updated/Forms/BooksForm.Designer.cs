@@ -129,6 +129,7 @@
             this.textBoxISBN.Name = "textBoxISBN";
             this.textBoxISBN.Size = new System.Drawing.Size(247, 38);
             this.textBoxISBN.TabIndex = 10;
+            //this.textBoxISBN.TextChanged += new System.EventHandler(this.textBoxISBN_TextChanged);
             // 
             // BooksForm
             // 

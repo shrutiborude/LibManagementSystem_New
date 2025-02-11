@@ -19,9 +19,15 @@ namespace LibManagementSystem_Updated.Classes
                 return;
             }
 
-            if (!int.TryParse(isbnBox.Text, out int isbn))
+            if (isbnBox.Text.Length != 13 || !isbnBox.Text.All(char.IsDigit))
             {
-                MessageBox.Show("ISBN must be a number.");
+                MessageBox.Show("ISBN number must be exactly 13 digits and numeric.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            if (bookService.GetAll().Any(p => p.ISBN == isbnBox.Text))
+            {
+                MessageBox.Show("IBN number must be unique!", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -29,7 +35,7 @@ namespace LibManagementSystem_Updated.Classes
             {
                 Name = nameBox.Text,
                 Author = authorBox.Text,
-                ISBN = isbn
+                ISBN = isbnBox.Text
             };
 
             bookService.Add(newBook);

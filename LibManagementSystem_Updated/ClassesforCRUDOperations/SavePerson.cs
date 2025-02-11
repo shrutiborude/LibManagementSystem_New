@@ -18,6 +18,13 @@ namespace LibManagementSystem_Updated.Classes
                 return;
             }
 
+            if (contactBox.Text.Length != 10 || !contactBox.Text.All(char.IsDigit))
+            {
+                MessageBox.Show("Contact number must be exactly 10 digits and numeric.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+
             if (service.GetAll().Any(p => p.Contact == contactBox.Text))
             {
                 MessageBox.Show("Contact number must be unique!", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
