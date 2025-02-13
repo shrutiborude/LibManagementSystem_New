@@ -10,7 +10,7 @@ namespace LibManagementSystem_Updated.IssueBookClasses
 {
     public class LoadIssueBookService
     {
-        public void LoadBooks(DataGridView gridview)
+        public void LoadBooks(DataGridView gridview, int studentId)
         {
             using (var context = new MyDbContext())
             {
@@ -20,6 +20,12 @@ namespace LibManagementSystem_Updated.IssueBookClasses
                         book.Id,
                         book.Name,
                         book.Author,
+                        Requeststatus = context.IssuedBooks
+                            .Where(br => br.BookId == book.Id && br.StudentId == studentId)
+                            .Select(br => br.RequestStatus)
+                            .FirstOrDefault() ?? "Available"
+
+
                     })
                     .ToList();
 

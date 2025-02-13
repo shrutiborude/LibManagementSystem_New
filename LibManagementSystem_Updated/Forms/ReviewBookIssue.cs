@@ -2,6 +2,7 @@
 using System.Data;
 using System.Linq;
 using System.Windows.Forms;
+using LibManagementSystem_Updated.IssueBookClasses;
 using LibManagementSystem_Updated.Models;
 using LibManagementSystem_Updated.ReviewIssueRequestclasses;
 using LibManagementSystem_Updated.Services;
@@ -36,6 +37,7 @@ namespace LibManagementSystem_Updated.Forms
         {
             acceptrequest.AcceptRequest(dataGridView1);
             LoadRequests();
+            
         }
 
         private void buttonReject_Click(object sender, EventArgs e)

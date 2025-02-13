@@ -36,14 +36,15 @@ namespace LibManagementSystem_Updated.IssueBookClasses
                     StudentId = IdofStudent,
                     BookId = bookId,
                     IssueDate = DateTime.Now,
+                    RequestStatus = "Pending",
                     IsApproved = false,
-                    //RequestStatus = "Pending"
                 };
 
                 context.IssuedBooks.Add(newRequest);
                 context.SaveChanges();
 
                 MessageBox.Show("Book issue request sent successfully!");
+                
             }
 
         }

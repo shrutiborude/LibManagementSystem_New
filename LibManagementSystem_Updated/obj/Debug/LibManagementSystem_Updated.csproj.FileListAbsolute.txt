@@ -46,3 +46,6 @@ C:\Users\ShrutiBorude\source\repos\Saved Lib Management\New folder\LibManagement
 C:\Users\ShrutiBorude\source\repos\Saved Lib Management\New folder\LibManagementSystem_Updated\obj\Debug\LibManagementSystem_Updated.pdb
 C:\Users\ShrutiBorude\source\repos\Saved Lib Management\New folder\LibManagementSystem_Updated\obj\Debug\LibManagementSystem_Updated.Forms.BookIssueForm.resources
 C:\Users\ShrutiBorude\source\repos\Saved Lib Management\New folder\LibManagementSystem_Updated\obj\Debug\LibManagementSystem_Updated.Forms.ReviewBookIssue.resources
+C:\Users\ShrutiBorude\source\repos\Saved Lib Management\New folder\LibManagementSystem_Updated\obj\Debug\LibManagementSystem_Updated.Migrations.UpdatedIssuedBookTable.resources
+C:\Users\ShrutiBorude\source\repos\Saved Lib Management\New folder\LibManagementSystem_Updated\obj\Debug\LibManagementSystem_Updated.Migrations.FixIssuedBookTable.resources
+C:\Users\ShrutiBorude\source\repos\Saved Lib Management\New folder\LibManagementSystem_Updated\obj\Debug\LibManagementSystem_Updated.Migrations.FixIssuedBookTable_new.resources

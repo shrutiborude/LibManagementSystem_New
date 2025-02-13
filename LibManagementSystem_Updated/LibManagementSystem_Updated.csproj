@@ -134,6 +134,18 @@
     <Compile Include="Migrations\202502070937266_AddNewAttributeToBook.Designer.cs">
       <DependentUpon>202502070937266_AddNewAttributeToBook.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202502130908474_UpdatedIssuedBookTable.cs" />
+    <Compile Include="Migrations\202502130908474_UpdatedIssuedBookTable.Designer.cs">
+      <DependentUpon>202502130908474_UpdatedIssuedBookTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202502130915479_FixIssuedBookTable.cs" />
+    <Compile Include="Migrations\202502130915479_FixIssuedBookTable.Designer.cs">
+      <DependentUpon>202502130915479_FixIssuedBookTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202502130931007_FixIssuedBookTable_new.cs" />
+    <Compile Include="Migrations\202502130931007_FixIssuedBookTable_new.Designer.cs">
+      <DependentUpon>202502130931007_FixIssuedBookTable_new.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Book.cs" />
     <Compile Include="Models\IssuedBook.cs" />
@@ -176,6 +188,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202502070937266_AddNewAttributeToBook.resx">
       <DependentUpon>202502070937266_AddNewAttributeToBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202502130908474_UpdatedIssuedBookTable.resx">
+      <DependentUpon>202502130908474_UpdatedIssuedBookTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202502130915479_FixIssuedBookTable.resx">
+      <DependentUpon>202502130915479_FixIssuedBookTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202502130931007_FixIssuedBookTable_new.resx">
+      <DependentUpon>202502130931007_FixIssuedBookTable_new.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

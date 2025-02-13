@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Windows.Forms;
 using LibManagementSystem_Updated.Models;
+using LibManagementSystem_Updated.IssueBookClasses;
 
 namespace LibManagementSystem_Updated.Services
 {
@@ -23,6 +24,7 @@ namespace LibManagementSystem_Updated.Services
                 if (request != null)
                 {
                     request.IsApproved = true;
+                    request.RequestStatus = "Accepted";
                     context.SaveChanges();
                     MessageBox.Show("Book request approved successfully.");
                 }

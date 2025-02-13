@@ -45,13 +45,14 @@ namespace LibManagementSystem_Updated.Forms
 
         private void LoadBooks()
         {
-            _loadIssueBookService.LoadBooks(dataGridView1);
+            _loadIssueBookService.LoadBooks(dataGridView1, _studentId);
         }
 
         private void btnIssue_Click(object sender, EventArgs e)
         {
             int bookId = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["Id"].Value);
             _issueBookService.RequestIssue(_studentId, bookId, dataGridView1);
+            LoadBooks();
         }
 
 
