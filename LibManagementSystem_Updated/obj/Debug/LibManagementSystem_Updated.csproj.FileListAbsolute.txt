@@ -44,3 +44,5 @@ C:\Users\ShrutiBorude\source\repos\Saved Lib Management\New folder\LibManagement
 C:\Users\ShrutiBorude\source\repos\Saved Lib Management\New folder\LibManagementSystem_Updated\obj\Debug\LibManag.A3916ED3.Up2Date
 C:\Users\ShrutiBorude\source\repos\Saved Lib Management\New folder\LibManagementSystem_Updated\obj\Debug\LibManagementSystem_Updated.exe
 C:\Users\ShrutiBorude\source\repos\Saved Lib Management\New folder\LibManagementSystem_Updated\obj\Debug\LibManagementSystem_Updated.pdb
+C:\Users\ShrutiBorude\source\repos\Saved Lib Management\New folder\LibManagementSystem_Updated\obj\Debug\LibManagementSystem_Updated.Forms.BookIssueForm.resources
+C:\Users\ShrutiBorude\source\repos\Saved Lib Management\New folder\LibManagementSystem_Updated\obj\Debug\LibManagementSystem_Updated.Forms.ReviewBookIssue.resources

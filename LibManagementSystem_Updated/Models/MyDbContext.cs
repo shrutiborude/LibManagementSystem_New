@@ -20,6 +20,8 @@ namespace LibManagementSystem_Updated.Models
         public DbSet<Librarian> Librarians { get; set; }
         public DbSet<Book> Books { get; set; }
 
+        public DbSet<IssuedBook> IssuedBooks { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
