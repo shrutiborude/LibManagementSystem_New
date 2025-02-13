@@ -17,13 +17,26 @@ namespace LibManagementSystem_Updated.Forms
     {
         private LoadIssueBookService _loadIssueBookService;
         private IssueBookService _issueBookService;
-        public BookIssueForm()
+        private LoadStudentInfoService _loadStudentInfoService;
+
+        private int _studentId;
+
+
+        public BookIssueForm(int studentId)
         {
             InitializeComponent();
             _loadIssueBookService = new LoadIssueBookService();
             _issueBookService = new IssueBookService();
+            _loadStudentInfoService = new LoadStudentInfoService();
+            _studentId = studentId;
+            LoadStudentInfo();
             LoadBooks();
 
+        }
+
+        private void LoadStudentInfo()
+        {
+            _loadStudentInfoService.LoadStdInfo(_studentId, labelStdName, labelStdId);
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -38,10 +51,7 @@ namespace LibManagementSystem_Updated.Forms
         private void btnIssue_Click(object sender, EventArgs e)
         {
             int bookId = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["Id"].Value);
-            int studentId = 16;
-            //int studentId = 17;
-
-            _issueBookService.RequestIssue(studentId, bookId, dataGridView1);
+            _issueBookService.RequestIssue(_studentId, bookId, dataGridView1);
         }
 
 

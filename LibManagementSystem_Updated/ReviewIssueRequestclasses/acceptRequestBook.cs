@@ -23,7 +23,6 @@ namespace LibManagementSystem_Updated.Services
                 if (request != null)
                 {
                     request.IsApproved = true;
-                    request.RequestStatus = "Accepted";
                     context.SaveChanges();
                     MessageBox.Show("Book request approved successfully.");
                 }

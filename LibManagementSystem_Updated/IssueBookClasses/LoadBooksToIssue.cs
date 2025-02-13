@@ -10,14 +10,6 @@ namespace LibManagementSystem_Updated.IssueBookClasses
 {
     public class LoadIssueBookService
     {
-        //public List<Book> getAllBooks()
-        //{
-        //    using (var context = new MyDbContext())
-        //    {
-        //        return context.Books.ToList();
-        //    } 
-        //}
-
         public void LoadBooks(DataGridView gridview)
         {
             using (var context = new MyDbContext())
@@ -28,13 +20,6 @@ namespace LibManagementSystem_Updated.IssueBookClasses
                         book.Id,
                         book.Name,
                         book.Author,
-                        //book.Genre,
-                        //book.PublishedYear,
-                        RequestStatus = context.IssuedBooks
-                            .Where(ib => ib.BookId == book.Id)
-                            .OrderByDescending(ib => ib.IssueDate) // Get latest request status
-                            .Select(ib => ib.RequestStatus)
-                            .FirstOrDefault() ?? "Available" // If no request, show as Available
                     })
                     .ToList();
 

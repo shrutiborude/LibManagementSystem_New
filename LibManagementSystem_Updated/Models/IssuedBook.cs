@@ -29,6 +29,6 @@ namespace LibManagementSystem_Updated.Models
         public DateTime IssueDate { get; set; } = DateTime.Now;
 
         public bool IsApproved { get; set; }  // Librarian approval status
-        public string RequestStatus { get; set; }  // "Pending", "Approved", "Rejected"
+        //public string RequestStatus { get; set; } = "Available";  // "Pending", "Approved", "Rejected"
     }
 }

@@ -75,9 +75,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseEntityForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Forms\BaseOpenForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,9 +122,10 @@
     <Compile Include="Forms\ReviewBookIssue.Designer.cs">
       <DependentUpon>ReviewBookIssue.cs</DependentUpon>
     </Compile>
-    <Compile Include="IssueBookClasses\GetCurrentStudentID.cs" />
     <Compile Include="IssueBookClasses\IssueBookAction.cs" />
     <Compile Include="IssueBookClasses\LoadBooksToIssue.cs" />
+    <Compile Include="IssueBookClasses\LoadStudentInfoService.cs" />
+    <Compile Include="IssueBookClasses\StudentLoginService.cs" />
     <Compile Include="Migrations\202502061119280_initializeDB.cs" />
     <Compile Include="Migrations\202502061119280_initializeDB.Designer.cs">
       <DependentUpon>202502061119280_initializeDB.cs</DependentUpon>

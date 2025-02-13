@@ -10,7 +10,7 @@ namespace LibManagementSystem_Updated.IssueBookClasses
 {
     public class IssueBookService
     {
-        public void RequestIssue(int studentId, int bookId, DataGridView gridView)
+        public void RequestIssue(int IdofStudent, int bookId, DataGridView gridView)
         {
 
             if (gridView.SelectedRows.Count == 0)
@@ -23,7 +23,7 @@ namespace LibManagementSystem_Updated.IssueBookClasses
             {
 
                 var existingRequest = context.IssuedBooks
-                    .FirstOrDefault(i => i.StudentId == studentId && i.BookId == bookId && !i.IsApproved);
+                    .FirstOrDefault(i => i.StudentId == IdofStudent && i.BookId == bookId && !i.IsApproved);
 
                 if (existingRequest != null)
                 {
@@ -33,11 +33,11 @@ namespace LibManagementSystem_Updated.IssueBookClasses
 
                 var newRequest = new IssuedBook
                 {
-                    StudentId = studentId,
+                    StudentId = IdofStudent,
                     BookId = bookId,
                     IssueDate = DateTime.Now,
                     IsApproved = false,
-                    RequestStatus = "Pending"
+                    //RequestStatus = "Pending"
                 };
 
                 context.IssuedBooks.Add(newRequest);

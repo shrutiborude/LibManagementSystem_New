@@ -11,7 +11,7 @@ namespace LibManagementSystem_Updated.Services
             using (var context = new MyDbContext())
             {
                 var requests = context.IssuedBooks
-                    .Where(b => !b.IsApproved) // Load only pending requests
+                    .Where(b => !b.IsApproved) 
                     .Select(b => new
                     {
                         b.Id,

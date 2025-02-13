@@ -20,9 +20,8 @@ namespace LibManagementSystem_Updated.ReviewIssueRequestclasses
                     var request = context.IssuedBooks.Find(requestId);
                     if (request != null)
                     {
-                        context.IssuedBooks.Remove(request);
                         request.IsApproved = false;
-                        request.RequestStatus = "Rejected";
+                        context.IssuedBooks.Remove(request);
                         context.SaveChanges();
                         MessageBox.Show("Book request rejected and removed.");
                     }
