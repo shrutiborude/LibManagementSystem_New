@@ -43,10 +43,10 @@
             // 
             // textBoxLibName
             // 
-            this.textBoxLibName.Location = new System.Drawing.Point(567, 80);
+            this.textBoxLibName.Location = new System.Drawing.Point(426, 82);
             this.textBoxLibName.Name = "textBoxLibName";
             this.textBoxLibName.Size = new System.Drawing.Size(193, 38);
-            this.textBoxLibName.TabIndex = 20;
+            this.textBoxLibName.TabIndex = 0;
             // 
             // dataGridViewLibrarianForm
             // 
@@ -61,52 +61,52 @@
             // 
             // btnLibDelete
             // 
-            this.btnLibDelete.Location = new System.Drawing.Point(1514, 166);
+            this.btnLibDelete.Location = new System.Drawing.Point(1373, 168);
             this.btnLibDelete.Name = "btnLibDelete";
             this.btnLibDelete.Size = new System.Drawing.Size(161, 86);
-            this.btnLibDelete.TabIndex = 18;
+            this.btnLibDelete.TabIndex = 5;
             this.btnLibDelete.Text = "Delete";
             this.btnLibDelete.UseVisualStyleBackColor = true;
             this.btnLibDelete.Click += new System.EventHandler(this.btnLibDelete_Click);
             // 
             // btnLibUpdate
             // 
-            this.btnLibUpdate.Location = new System.Drawing.Point(1244, 169);
+            this.btnLibUpdate.Location = new System.Drawing.Point(1103, 171);
             this.btnLibUpdate.Name = "btnLibUpdate";
             this.btnLibUpdate.Size = new System.Drawing.Size(161, 86);
-            this.btnLibUpdate.TabIndex = 17;
+            this.btnLibUpdate.TabIndex = 4;
             this.btnLibUpdate.Text = "Update";
             this.btnLibUpdate.UseVisualStyleBackColor = true;
             this.btnLibUpdate.Click += new System.EventHandler(this.btnLibUpdate_Click);
             // 
             // btnLibSave
             // 
-            this.btnLibSave.Location = new System.Drawing.Point(997, 166);
+            this.btnLibSave.Location = new System.Drawing.Point(856, 168);
             this.btnLibSave.Name = "btnLibSave";
             this.btnLibSave.Size = new System.Drawing.Size(161, 86);
-            this.btnLibSave.TabIndex = 16;
+            this.btnLibSave.TabIndex = 3;
             this.btnLibSave.Text = "Save";
             this.btnLibSave.UseVisualStyleBackColor = true;
             this.btnLibSave.Click += new System.EventHandler(this.btnLibSave_Click);
             // 
             // textBoxLibContact
             // 
-            this.textBoxLibContact.Location = new System.Drawing.Point(567, 274);
+            this.textBoxLibContact.Location = new System.Drawing.Point(426, 276);
             this.textBoxLibContact.Name = "textBoxLibContact";
             this.textBoxLibContact.Size = new System.Drawing.Size(193, 38);
-            this.textBoxLibContact.TabIndex = 15;
+            this.textBoxLibContact.TabIndex = 2;
             // 
             // textBoxLibID
             // 
-            this.textBoxLibID.Location = new System.Drawing.Point(567, 169);
+            this.textBoxLibID.Location = new System.Drawing.Point(426, 171);
             this.textBoxLibID.Name = "textBoxLibID";
             this.textBoxLibID.Size = new System.Drawing.Size(193, 38);
-            this.textBoxLibID.TabIndex = 14;
+            this.textBoxLibID.TabIndex = 1;
             // 
             // labelLibContact
             // 
             this.labelLibContact.AutoSize = true;
-            this.labelLibContact.Location = new System.Drawing.Point(237, 274);
+            this.labelLibContact.Location = new System.Drawing.Point(96, 276);
             this.labelLibContact.Name = "labelLibContact";
             this.labelLibContact.Size = new System.Drawing.Size(112, 32);
             this.labelLibContact.TabIndex = 13;
@@ -115,7 +115,7 @@
             // labelLibID
             // 
             this.labelLibID.AutoSize = true;
-            this.labelLibID.Location = new System.Drawing.Point(237, 169);
+            this.labelLibID.Location = new System.Drawing.Point(96, 171);
             this.labelLibID.Name = "labelLibID";
             this.labelLibID.Size = new System.Drawing.Size(175, 32);
             this.labelLibID.TabIndex = 12;
@@ -124,7 +124,7 @@
             // labelLibName
             // 
             this.labelLibName.AutoSize = true;
-            this.labelLibName.Location = new System.Drawing.Point(237, 68);
+            this.labelLibName.Location = new System.Drawing.Point(96, 70);
             this.labelLibName.Name = "labelLibName";
             this.labelLibName.Size = new System.Drawing.Size(89, 32);
             this.labelLibName.TabIndex = 11;

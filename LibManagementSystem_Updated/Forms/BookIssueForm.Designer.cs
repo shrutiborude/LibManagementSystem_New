@@ -43,7 +43,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 102;
             this.dataGridView1.RowTemplate.Height = 40;
-            this.dataGridView1.Size = new System.Drawing.Size(1573, 735);
+            this.dataGridView1.Size = new System.Drawing.Size(1970, 979);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -87,7 +87,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1558, 930);
+            this.ClientSize = new System.Drawing.Size(1948, 1186);
             this.Controls.Add(this.labelStdName);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.labelStdId);

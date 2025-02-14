@@ -50,7 +50,14 @@ namespace LibManagementSystem_Updated.Forms
 
         private void btnIssue_Click(object sender, EventArgs e)
         {
+            if (dataGridView1.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Please select a book before issuing.");
+                return;
+            }
+
             int bookId = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["Id"].Value);
+
             _issueBookService.RequestIssue(_studentId, bookId, dataGridView1);
             LoadBooks();
         }
