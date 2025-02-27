@@ -15,6 +15,7 @@ namespace LibManagementSystem_Updated.ReviewIssueRequestclasses
             if (gridView.SelectedRows.Count > 0)
             {
                 int requestId = (int)gridView.SelectedRows[0].Cells["Id"].Value;
+
                 using (var context = new MyDbContext())
                 {
                     var request = context.IssuedBooks.Find(requestId);
@@ -26,6 +27,10 @@ namespace LibManagementSystem_Updated.ReviewIssueRequestclasses
                         context.IssuedBooks.Remove(request);
 
                         MessageBox.Show("Book request rejected and removed.");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Request not found");
                     }
                 }
             }

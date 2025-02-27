@@ -16,11 +16,13 @@ namespace LibManagementSystem_Updated
     {
         private readonly DatabaseService<Book> _bookService;
         private Book selectedBook;
+
         public BooksForm()
         {
             InitializeComponent();
-            _bookService = new DatabaseService<Book>();
+            _bookService = new DatabaseService<Book>(new MyDbContext());
         }
+
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -30,7 +32,7 @@ namespace LibManagementSystem_Updated
 
         private void buttonSaveBook_Click(object sender, EventArgs e)
         {
-            SaveBookHelper.SaveBook(dataGridViewBook, _bookService, textBoxBookName, textBoxAuthorName, textBoxISBN);
+             SaveBookHelper.SaveBook(dataGridViewBook, _bookService, textBoxBookName, textBoxAuthorName, textBoxISBN);
         }
 
         private void buttonUpdateBook_Click(object sender, EventArgs e)
@@ -46,17 +48,10 @@ namespace LibManagementSystem_Updated
 
         private void BooksForm_Load(object sender, EventArgs e)
         {
-            LoadDataIntoGrid.LoadIntoGrid(dataGridViewBook, _bookService);
+            LoadDataIntoGrid.LoadIntoGrid<Book>(dataGridViewBook, _bookService);
+
         }
 
-        //private void textBoxISBN_TextChanged(object sender, EventArgs e)
-        //{
-        //    if (!System.Text.RegularExpressions.Regex.IsMatch(textBoxISBN.Text, @"^\d{0,13}$"))
-        //    {
-        //        MessageBox.Show("ISBN must be exactly 13 digits and numeric.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-        //        textBoxISBN.Text = textBoxISBN.Text.Remove(textBoxISBN.Text.Length - 1);
-        //        textBoxISBN.SelectionStart = textBoxISBN.Text.Length; // Keep cursor position
-        //    }
-        //}
+
     }
 }

@@ -15,9 +15,9 @@ namespace LibManagementSystem_Updated.Forms
 {
     public partial class BookIssueForm : Form
     {
-        private LoadIssueBookService _loadIssueBookService;
-        private IssueBookService _issueBookService;
-        private LoadStudentInfoService _loadStudentInfoService;
+        private readonly LoadIssueBookService _loadIssueBookService;
+        private readonly IssueBookService _issueBookService;
+        private readonly LoadStudentInfoService _loadStudentInfoService;
 
         private int _studentId;
 

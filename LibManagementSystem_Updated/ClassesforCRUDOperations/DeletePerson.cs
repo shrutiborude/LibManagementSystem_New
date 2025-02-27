@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using LibManagementSystem_Updated.Models;
 
 namespace LibManagementSystem_Updated.Classes
 {
     public class DeleteHelper
     {
+        //Changes made
         public static void DeletePerson<T>(DataGridView gridView, DatabaseService<T> service, T selectedPerson)where T : class
         {
             if (selectedPerson == null)

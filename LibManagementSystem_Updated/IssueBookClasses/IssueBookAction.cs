@@ -12,13 +12,6 @@ namespace LibManagementSystem_Updated.IssueBookClasses
     {
         public void RequestIssue(int IdofStudent, int bookId, DataGridView gridView)
         {
-
-            //if (gridView.SelectedRows.Count == 0)
-            //{
-            //    MessageBox.Show("Please select a book to issue.");
-            //    return;
-            //}
-
             using (var context = new MyDbContext())
             {
 

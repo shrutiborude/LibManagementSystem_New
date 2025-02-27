@@ -11,9 +11,9 @@ namespace LibManagementSystem_Updated.Forms
 {
     public partial class ReviewBookIssue : Form
     {
-        private AcceptRequestService acceptrequest;
-        private RejectRequestService rejectrequest;
-        private PendingRequestsService loadPendingRequests;
+        private readonly AcceptRequestService acceptrequest;
+        private readonly RejectRequestService rejectrequest;
+        private readonly PendingRequestsService loadPendingRequests;
         public ReviewBookIssue()
         {
             InitializeComponent();
