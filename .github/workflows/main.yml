@@ -1,4 +1,4 @@
-name: Publish EXE on Push
+name: Publish EXE on Push new
 
 on:
   push:
