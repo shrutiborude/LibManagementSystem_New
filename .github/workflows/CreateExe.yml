@@ -3,7 +3,7 @@ name: Publish EXE on Push
 on:
   push:
     branches:
-      - main  
+      - check-issue-status 
   workflow_dispatch: 
     inputs:
       branch:
