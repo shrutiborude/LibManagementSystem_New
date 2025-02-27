@@ -5,6 +5,12 @@ on:
     branches:
       - main  
   workflow_dispatch: 
+    inputs:
+      branch:
+        description: "Branch to build EXE from"
+        required: true
+        default: "main"
+
 
 jobs:
   build:
