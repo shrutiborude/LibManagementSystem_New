@@ -1,0 +1,43 @@
+name: Publish EXE on Push
+
+on:
+  push:
+    branches:
+      - main  
+  workflow_dispatch: 
+
+jobs:
+  build:
+    runs-on: windows-latest  
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v1
+
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v1
+        with:
+          nuget-version: latest
+
+      - name: Restore Dependencies
+        run: nuget restore LibManagementSystem_Updated.sln
+
+      - name: Build Application
+        run: msbuild LibManagementSystem_Updated.sln /p:Configuration=Release /p:Platform="Any CPU"
+
+      - name: Publish EXE
+        run: |
+          mkdir publish
+          xcopy LibManagementSystem_Updated\bin\Release\* publish\ /E /Y
+
+      - name: Upload Artifact (EXE)
+        uses: actions/upload-artifact@v3
+        with:
+          name: Published-EXE
+          path: publish/
+          retention-days: 7
+
+      
