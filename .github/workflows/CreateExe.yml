@@ -34,7 +34,7 @@ jobs:
           xcopy LibManagementSystem_Updated\bin\Release\* publish\ /E /Y
 
       - name: Upload Artifact (EXE)
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4 
         with:
           name: Published-EXE
           path: publish/
