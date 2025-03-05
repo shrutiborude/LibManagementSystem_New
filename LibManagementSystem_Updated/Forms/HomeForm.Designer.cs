@@ -31,6 +31,8 @@
             this.studbutton = new System.Windows.Forms.Button();
             this.libbutton = new System.Windows.Forms.Button();
             this.bookbutton = new System.Windows.Forms.Button();
+            this.btnBookIssue = new System.Windows.Forms.Button();
+            this.btnReviewBookIssue = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // studbutton
@@ -63,15 +65,37 @@
             this.bookbutton.UseVisualStyleBackColor = true;
             this.bookbutton.Click += new System.EventHandler(this.bookbutton_Click);
             // 
-            // Form1
+            // btnBookIssue
+            // 
+            this.btnBookIssue.Location = new System.Drawing.Point(360, 517);
+            this.btnBookIssue.Name = "btnBookIssue";
+            this.btnBookIssue.Size = new System.Drawing.Size(248, 103);
+            this.btnBookIssue.TabIndex = 3;
+            this.btnBookIssue.Text = "Issue Book";
+            this.btnBookIssue.UseVisualStyleBackColor = true;
+            this.btnBookIssue.Click += new System.EventHandler(this.btnBookIssue_Click);
+            // 
+            // btnReviewBookIssue
+            // 
+            this.btnReviewBookIssue.Location = new System.Drawing.Point(727, 517);
+            this.btnReviewBookIssue.Name = "btnReviewBookIssue";
+            this.btnReviewBookIssue.Size = new System.Drawing.Size(248, 103);
+            this.btnReviewBookIssue.TabIndex = 4;
+            this.btnReviewBookIssue.Text = "Review Book Issue";
+            this.btnReviewBookIssue.UseVisualStyleBackColor = true;
+            this.btnReviewBookIssue.Click += new System.EventHandler(this.btnReviewBookIssue_Click);
+            // 
+            // HomeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1687, 755);
+            this.ClientSize = new System.Drawing.Size(1687, 873);
+            this.Controls.Add(this.btnReviewBookIssue);
+            this.Controls.Add(this.btnBookIssue);
             this.Controls.Add(this.bookbutton);
             this.Controls.Add(this.libbutton);
             this.Controls.Add(this.studbutton);
-            this.Name = "Form1";
+            this.Name = "HomeForm";
             this.Text = "HomePage";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -83,6 +107,8 @@
         private System.Windows.Forms.Button studbutton;
         private System.Windows.Forms.Button libbutton;
         private System.Windows.Forms.Button bookbutton;
+        private System.Windows.Forms.Button btnBookIssue;
+        private System.Windows.Forms.Button btnReviewBookIssue;
     }
 }
 

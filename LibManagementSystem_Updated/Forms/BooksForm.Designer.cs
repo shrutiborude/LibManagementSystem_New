@@ -44,7 +44,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(255, 68);
+            this.label1.Location = new System.Drawing.Point(139, 132);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(89, 32);
             this.label1.TabIndex = 0;
@@ -53,7 +53,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(255, 163);
+            this.label2.Location = new System.Drawing.Point(139, 227);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(98, 32);
             this.label2.TabIndex = 1;
@@ -61,44 +61,44 @@
             // 
             // textBoxBookName
             // 
-            this.textBoxBookName.Location = new System.Drawing.Point(507, 52);
+            this.textBoxBookName.Location = new System.Drawing.Point(391, 116);
             this.textBoxBookName.Name = "textBoxBookName";
-            this.textBoxBookName.Size = new System.Drawing.Size(247, 38);
-            this.textBoxBookName.TabIndex = 2;
+            this.textBoxBookName.Size = new System.Drawing.Size(248, 38);
+            this.textBoxBookName.TabIndex = 0;
             // 
             // textBoxAuthorName
             // 
-            this.textBoxAuthorName.Location = new System.Drawing.Point(507, 157);
+            this.textBoxAuthorName.Location = new System.Drawing.Point(391, 221);
             this.textBoxAuthorName.Name = "textBoxAuthorName";
-            this.textBoxAuthorName.Size = new System.Drawing.Size(247, 38);
-            this.textBoxAuthorName.TabIndex = 3;
+            this.textBoxAuthorName.Size = new System.Drawing.Size(248, 38);
+            this.textBoxAuthorName.TabIndex = 1;
             // 
             // buttonSaveBook
             // 
-            this.buttonSaveBook.Location = new System.Drawing.Point(919, 95);
+            this.buttonSaveBook.Location = new System.Drawing.Point(803, 159);
             this.buttonSaveBook.Name = "buttonSaveBook";
             this.buttonSaveBook.Size = new System.Drawing.Size(164, 68);
-            this.buttonSaveBook.TabIndex = 4;
+            this.buttonSaveBook.TabIndex = 3;
             this.buttonSaveBook.Text = "Save";
             this.buttonSaveBook.UseVisualStyleBackColor = true;
             this.buttonSaveBook.Click += new System.EventHandler(this.buttonSaveBook_Click);
             // 
             // buttonUpdateBook
             // 
-            this.buttonUpdateBook.Location = new System.Drawing.Point(1171, 95);
+            this.buttonUpdateBook.Location = new System.Drawing.Point(1055, 159);
             this.buttonUpdateBook.Name = "buttonUpdateBook";
             this.buttonUpdateBook.Size = new System.Drawing.Size(164, 68);
-            this.buttonUpdateBook.TabIndex = 5;
+            this.buttonUpdateBook.TabIndex = 4;
             this.buttonUpdateBook.Text = "Update";
             this.buttonUpdateBook.UseVisualStyleBackColor = true;
             this.buttonUpdateBook.Click += new System.EventHandler(this.buttonUpdateBook_Click);
             // 
             // buttonDeleteBook
             // 
-            this.buttonDeleteBook.Location = new System.Drawing.Point(1414, 95);
+            this.buttonDeleteBook.Location = new System.Drawing.Point(1298, 159);
             this.buttonDeleteBook.Name = "buttonDeleteBook";
             this.buttonDeleteBook.Size = new System.Drawing.Size(164, 68);
-            this.buttonDeleteBook.TabIndex = 6;
+            this.buttonDeleteBook.TabIndex = 5;
             this.buttonDeleteBook.Text = "Delete";
             this.buttonDeleteBook.UseVisualStyleBackColor = true;
             this.buttonDeleteBook.Click += new System.EventHandler(this.buttonDeleteBook_Click);
@@ -117,7 +117,7 @@
             // ISBN
             // 
             this.ISBN.AutoSize = true;
-            this.ISBN.Location = new System.Drawing.Point(265, 258);
+            this.ISBN.Location = new System.Drawing.Point(149, 322);
             this.ISBN.Name = "ISBN";
             this.ISBN.Size = new System.Drawing.Size(79, 32);
             this.ISBN.TabIndex = 9;
@@ -125,10 +125,10 @@
             // 
             // textBoxISBN
             // 
-            this.textBoxISBN.Location = new System.Drawing.Point(507, 258);
+            this.textBoxISBN.Location = new System.Drawing.Point(391, 322);
             this.textBoxISBN.Name = "textBoxISBN";
-            this.textBoxISBN.Size = new System.Drawing.Size(247, 38);
-            this.textBoxISBN.TabIndex = 10;
+            this.textBoxISBN.Size = new System.Drawing.Size(248, 38);
+            this.textBoxISBN.TabIndex = 2;
             // 
             // BooksForm
             // 

@@ -22,7 +22,8 @@ namespace LibManagementSystem_Updated
             public StudentsForm()
             {
                 InitializeComponent();
-                _studentService = new DatabaseService<Student>();
+                //Changes
+                _studentService = new DatabaseService<Student>(new MyDbContext());
             }
 
             private void StudentsForm_Load(object sender, EventArgs e)

@@ -20,7 +20,8 @@ namespace LibManagementSystem_Updated
         public LibrariansForm()
         {
             InitializeComponent();
-            _librarianService = new DatabaseService<Librarian>();
+            //Changes 
+            _librarianService = new DatabaseService<Librarian>(new MyDbContext());
         }
 
         private void LibrariansForm_Load_1(object sender, EventArgs e)

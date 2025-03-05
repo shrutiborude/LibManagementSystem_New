@@ -1,24 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Data.Common;
 using System.Data.Entity;
-using System.Linq;
-using System.Runtime.Remoting.Contexts;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LibManagementSystem_Updated.Models
 {
     public class MyDbContext : DbContext
     {
-        public MyDbContext() : base("MyDBConnectionString")
+        // Constructor for production (Uses Connection String from Configuration)
+        public MyDbContext() : base("name=MyDBConnectionString")
         {
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<MyDbContext, Migrations.Configuration>("MyDBConnectionString"));
+
         }
 
-        // Define DbSet properties for actual entities
+        // Constructor for Dependency Injection (Allows Passing a Database Connection)
+        public MyDbContext(DbConnection connection) : base(connection, true)
+        {
+
+        }
+
+        // Define DbSet properties for entities
         public DbSet<Student> Students { get; set; }
         public DbSet<Librarian> Librarians { get; set; }
         public DbSet<Book> Books { get; set; }
+        public DbSet<IssuedBook> IssuedBooks { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
