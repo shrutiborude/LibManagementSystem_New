@@ -165,7 +165,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClassesforCRUDOperations\DatabaseServiceTrial.cs" />
     <Compile Include="Forms\BaseOpenForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -239,7 +238,6 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Book.cs" />
-    <Compile Include="Models\DbContextTrial.cs" />
     <Compile Include="Models\IssuedBook.cs" />
     <Compile Include="Models\Librarian.cs" />
     <Compile Include="Models\MyDbContext.cs" />
